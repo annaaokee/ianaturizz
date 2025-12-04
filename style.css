@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #f5f8f4;
+    color: #2e3d23;
+}
+
+/* NAV */
+nav {
+    width: 100%;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffffcc;
+    backdrop-filter: blur(6px);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #3a682d;
+}
+
+nav ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #2e3d23;
+    font-weight: 500;
+}
+
+/* HERO */
+.hero {
+    padding: 150px 8% 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hero-text {
+    max-width: 550px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #2d4d28;
+}
+
+.hero-text p {
+    margin: 20px 0;
+    font-size: 16px;
+    color: #1d4e1d;
+}
+
+.hero-text button {
+    padding: 12px 25px;
+    background: #4c8f3a;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.hero-text button:hover {
+    background: #3c752f;
+}
+
+.hero-img img {
+    width: 360px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px #00000020;
+}
+
+/* PRODUCTS */
+.products {
+    padding: 60px 8%;
+    text-align: cen
+}
